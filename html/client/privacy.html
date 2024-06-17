@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi shrink-to-fit=no">
+		<meta name="format-detection" content="telephone=no, address=no">
+		<meta name="title" content="캠퍼스월드">
+		<meta name="description" content="캠퍼스월드">
+		<meta name="copyright" content="캠퍼스월드">
+		<meta name="keywords" content="캠퍼스월드">
+		<title>캠퍼스월드</title>
+
+		<!-- [pp] favicon -->
+		<link rel="apple-touch-icon" href="../../images/favicon.png">
+		<link rel="shortcut icon" href="../../images/favicon.ico">
+		<!-- [pp] //favicon -->
+
+		<!-- [pp] css -->
+		<link rel="stylesheet" href="../../src/magnetic-popup/css/magnific-popup.css">
+		<link rel="stylesheet" href="../../src/mCustomScrollbar/css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="../../src/select2/css/select2.css">
+		<link rel="stylesheet" href="../../src/apexchart/css/apexcharts.css">
+		<link rel="stylesheet" href="../../src/swiper/css/swiper.css">
+		<link rel="stylesheet" href="../../css/dl_global.css">
+		<link rel="stylesheet" href="../../css/client/normalize.css">
+		<link rel="stylesheet" href="../../css/client/grid.css">
+		<link rel="stylesheet" href="../../css/client/formstyle.css">
+		<link rel="stylesheet" href="../../css/client/table.css">
+		<link rel="stylesheet" href="../../css/client/common_ui.css">
+		<link rel="stylesheet" href="../../css/client/ui.css">
+		<link rel="stylesheet" href="../../css/client/popup.css">
+		<!-- [pp] //css -->
+
+		<!--[pp] js -->
+		<script src="../../src/jquery/js/jquery-3.5.1.min.js"></script>
+		<!-- [if lt IE 9]>
+		<script src="../../src/jquery/js/jquery-1.12.3.min.js"></script>
+		<script src="../../src/jquery/js/html5shiv.js"></script>
+		<script src="../../src/jquery/js/IE9.js"></script>
+		<script src="../../src/jquery/js/respond.min.js"></script>
+		<![endif]-->
+		<script src="../../src/magnetic-popup/js/jquery.magnific-popup.js"></script>
+		<script src="../../src/mCustomScrollbar/js/jquery.mCustomScrollbar.min.js"></script>
+		<script src="../../src/select2/js/select2.min.js"></script>
+		<script src="../../src/apexchart/js/apexcharts.js"></script>
+		<script src="../../src/swiper/js/swiper.min.js"></script>
+		<script src="../../js/client/pp_common.js"></script>
+		<!--[pp] //js -->
+	</head>
+	<body>
+		<!--[pp] ie 하위버젼 접속시 알림 -->
+		<div id="browseralert">
+			본 사이트는 익스플로러11 이상, 크롬, 오페라, 파이어폭스 브라우저등의 최신버전에 최적화 되어 있습니다.<br/>지금 사용하고 계시는 브라우저는 곧 지원이 중단되므로
+			<a href="http://windows.microsoft.com/ko-kr/internet-explorer/ie-11-worldwide-languages" target="_blank">익스플로러 최신버젼</a>으로 업그레이드하시거나 <a href="https://www.google.com/intl/ko/chrome/browser/" target="_blank">크롬</a>, <a href="http://www.opera.com/ko/computer" target="_blank" style="color:#f9c461;">오페라</a>, <a href="https://www.mozilla.org/en-US/firefox/new/?scene=2" target="_blank">파이어폭스</a>등의 최신 브라우저를 이용해 주세요.
+			<button type="button" class="browseralert_close">닫기</button>
+		</div>
+		<!--[pp] // ie 하위버젼 접속시 알림 -->
+		
+		<!-- [pp] 로딩중 화면 -->
+		<div id="loading" style="display: none;">
+			<p id="loading_image">
+				<img src="../../images/loading.gif" alt="Loading..."><br>
+				<span>Loading</span>
+			</p>
+		</div>
+		<!-- [pp] //로딩중 화면 -->
+		
+		<section class="privacy_wrapper">
+			<div class="privacy_wrap">
+				<h1 class="logo">
+					<img src="../../images/client/common/header_logo.svg" alt="캠퍼스월드">
+				</h1>
+				<h3 class="privacy_tit">캠퍼스월드(Campus World) 개인정보처리방침</h3>
+				<div class="privacy_box">
+					<p class="mg_b10">㈜다인리더스 (이하 “회사”)는 개인정보를 안전하게 보호하기 위하여 개인정보 보호법을 비롯한 모든 개인정보보호 규정, 가이드라인을 준수하고 있습니다. "개인정보처리방침"이란 이용자의 소중한 개인정보를 보호함으로써 이용자가 안심하고 서비스를 이용할 수 있도록 회사가 준수해야 할 지침을 의미합니다.</p>
+					<section>
+						<h5>1. 개인정보 수집</h5>
+						<p class="mg_b10">회사에서 제공하는 서비스는 회원가입 및 서비스를 이용하는 과정에서 최소한의 개인정보를 수집하고 있습니다.</p>
+						<div class="tbl tbl_col scrollx_tbl_sm">
+							<table>
+								<caption>개인정보 수집</caption>
+								<colgroup>
+									<col style="width: 20%;">
+									<col style="width: 25%;">
+									<col style="width: auto;">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">분류</th>
+										<th scope="col">수집 항목</th>
+										<th scope="col">이용 목적</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">회원가입 시</th>
+										<td>이메일, 닉네임, 카카오/네이버 본인확인식별정보</td>
+										<td>회원 가입 의사의 확인, 이용자 식별 및 중복 가입 방지, 고지사항 전달, 마케팅 활용</td>
+									</tr>
+									<tr>
+										<th scope="row">서비스 제공 시</th>
+										<td>이메일, 닉네임</td>
+										<td>이용자에게 최적화된 서비스 제공, 신규 서비스 안내, 이용자 특성에 따른 서비스 안내, 접속 빈도 파악, 서비스 이용 통계</td>
+									</tr>
+									<tr>
+										<th scope="row">이벤트 응모 시</th>
+										<td>휴대폰 번호, 이메일, 닉네임</td>
+										<td>이벤트 운영, 당첨자 발표 및 경품 발송</td>
+									</tr>
+									<tr>
+										<th scope="row">서비스 제공에 관한 계약의 이행 및 서비스 제공에 따른 요금 정산 시 (개인)</th>
+										<td>회원고유번호, 계좌인증, 신용카드(카드사명000)</td>
+										<td>유료 서비스 이용, 환불 처리</td>
+									</tr>
+									<tr>
+										<th scope="row">기타 서비스 이용 과정에서의 자동 수집</th>
+										<td>서비스 이용 기록, 부정 이용 기록, 방문 일시, 접속 로그, 쿠키, 접속 IP 정보, 단말기 정보(OS, 화면 사이즈, 디바이스 아이디, 휴대폰 기종, 단말기 모델명)</td>
+										<td>본인 확인 및 서비스 이용 통계, 부정 이용 방지</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
+					<section>
+						<h5>2. 개인정보 수집 방법</h5>
+						<p class="mg_b10">개인정보를 수집하는 경우에는 사전에 이용자에게 해당 사실을 알리고 동의를 구하고 있으며, 아래와 같은 법령에 따라 동의 없이 이용자의 개인정보를 수집∙이용할 수 있습니다.</p>
+						<ul class="list_num mg_b10">
+							<li>
+								<span>①</span>정보통신서비스의 제공에 관한 계약을 이행하기 위하여 필요한 개인정보로써 경제적 · 기술적인 사유로 통상적인 동의를 받는 것이 뚜렷하게 곤란한 경우
+							</li>
+							<li>
+								<span>②</span>정보통신서비스의 제공에 따른 요금 정산을 위하여 필요한 경우
+							</li>
+							<li>
+								<span>③</span>부가 서비스 이용 또는 이벤트 응모 과정에서 해당 이용자에게 개인정보 추가 수집에 대해 동의를 받는 경우
+							</li>
+						</ul>
+						<p class="mg_b10">서비스 이용 과정에서 이용자로부터 아래의 방법을 통해 개인정보가 수집될 수 있습니다.</p>
+						<ul class="list_num">
+							<li>
+								<span>①</span>PC웹, 모바일 웹/앱 이용 과정에서 단말기 정보(OS, 화면 사이즈, 디바이스 아이디, 휴대폰 기종, 단말기 모델명), IP 주소, 쿠키, 방문 일시, 부정 이용 기록, 서비스 이용 기록 등의 정보가 자동으로 생성되어 수집될 수 있습니다.
+							</li>
+							<li>
+								<span>②</span>서비스 이용에 따른 본인 확인 및 개인 식별을 위해 웹 페이지 등을 통해 이용자의 개인정보가 수집될 수 있습니다.
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h5>3. 개인정보의 제3자 제공</h5>
+						<p>회사는 이용자의 별도 동의가 있는 경우나 법령에 규정된 경우를 제외하고는 이용자의 개인정보를 제3자에 제공하지 않습니다.</p>
+					</section>
+					<section>
+						<h5>4. 웹사이트 정보 자동 수집 장치(쿠키)에 대한 사항</h5>
+						<p class="mg_b10">쿠키는 웹사이트를 운영하는 데 이용하는 서버가 이용자의 브라우저로 전송하는 작은 텍스트 파일로, 이용자의 웹사이트 설정 상태, 방문 기록, 이용 형태를 자동으로 저장하여 웹사이트 사용을 빠르고 편리하도록 도와주는 역할을 합니다. 쿠키는 이름이나 전화번호 등 개인을 식별하는 정보를 저장하지 않지만, 이용자 스스로 쿠키 자동 수집 여부를 선택할 수 있습니다.</p>
+						<p class="bold">[쿠키 수집 거부 설정 방법]</p>
+						<ul class="list_num">
+							<li>
+								<span>①</span>Internet Explorer : 웹 브라우저 상단의 [도구 메뉴 >인터넷 옵션 >개인정보 >설정]
+							</li>
+							<li>
+								<span>②</span>Chrome : 웹 브라우저 우측의 [설정 메뉴 >화면 하단의 고급 설정 표시 >개인정보의 콘텐츠 설정 버튼 >쿠키]
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h5>5. 개인정보의 보유 및 이용기간</h5>
+						<p class="mg_b10">회사는 원칙적으로 개인정보의 수집 및 이용목적 달성 또는 보유기간이 만료되는 경우, 수집된 개인정보는 열람하거나 이용할 수 없도록 지체없이 파기 처리합니다.<br/>회원탈퇴 후 재가입을 반복하여 회사가 제공하는 혜택 등으로 경제적인 이득을 취하거나, 명의를 무단으로 사용하는 편법 및 불법행위를 하는 행위를 막기 위해 회원탈퇴 후 6개월 동안 이름, 이메일, 연락처, 회사명, 사업자등록번호 정보를 보관하며, 모바일 기기식별정보, 접속IP 정보는 12개월 동안 보관합니다.<br/>그 외 관계법령의 규정에 의하여 보존할 필요가 있는 경우, 일정한 기간 동안 외부와 차단된 별도의 DB 또는 테이블에 분리 보관합니다.</p>
+						<div class="tbl tbl_col scrollx_tbl_sm mg_b5">
+							<table>
+								<caption>개인정보의 보유 및 이용기간</caption>
+								<colgroup>
+									<col style="width: auto;">
+									<col style="width: 32%;">
+									<col style="width: 32%;">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">보존 정보</th>
+										<th scope="col">보존 근거 법령</th>
+										<th scope="col">보존 기간</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">계약 또는 청약철회 등에 관한 기록</th>
+										<td rowspan="3">전자상거래등에서의 소비자 보호에 관한 법률</td>
+										<td>5년</td>
+									</tr>
+									<tr>
+										<th scope="row">대금 결제 및 재화 등의 공급에 관한 기록</th>
+										<td>5년</td>
+									</tr>
+									<tr>
+										<th scope="row">소비자의 불만 또는 분쟁처리에 관한 기록</th>
+										<td>3년</td>
+									</tr>
+									<tr>
+										<th scope="row">사이트 방문에 관한 기록</th>
+										<td></td>
+										<td>3개월</td>
+									</tr>
+									<tr>
+										<th scope="row">이벤트 응모에 관한 기록</th>
+										<td>정보 주체 동의</td>
+										<td>이벤트 경품 지급 계약에 따른 거래기간 내</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<p>개인정보 보호를 위해 1년 동안 서비스를 이용하지 않은 회원의 계정은 개인정보 보호법 제39조의6에 근거하여 휴면으로 전환되며, 전환된 회원의 개인정보는 별도 DB로 분리하여 안전하게 보호합니다.</p>
+					</section>
+					<section>
+						<h5>6. 개인정보의 파기절차 및 방법</h5>
+						<p>회사는 개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다.<br/>정보주체로부터 동의받은 개인정보 보유기간이 경과하거나 처리 목적이 달성되었음에도 불구하고 다른 법령에 따라 개인정보를 계속 보존하여야 하는 경우에는, 해당 개인정보를 별도의 데이터베이스(DB)로 옮기거나 보관장소를 달리하여 보존합니다.<br/>회사는 이용자의 개인정보 유출로 인한 피해가 발생하지 않도록 전자적 파일형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제하며, 종이에 출력된 개인정보는 분쇄기로 분쇄하여 파기합니다.</p>
+					</section>
+					<section>
+						<h5>7. 이용자 및 법정대리인의 권리</h5>
+						<p>이용자는 개인정보 보호법에 따라 개인정보 열람, 정정, 삭제, 처리정지 요구 등의 권리를 행사할 수 있습니다.<br/>이용자가 개인정보의 오류에 대한 정정을 요청한 경우, 정정을 완료하기 전까지 당해 개인정보를 이용 또는 제공하지 아니하며, 잘못된 개인정보를 제3자에게 이미 제공한 경우에는 정정 처리결과를 제3자에게 지체 없이 통지하여 정정하도록 조치하겠습니다.<br/>이용자가 회원가입 등을 통해 개인정보의 수집, 이용, 제공에 대해 동의하신 내용은 언제든지 철회하실 수 있으며, 회원탈퇴를 요청할 수도 있으며, 위 권리를 법정대리인을 통해서도 행사할 수 있습니다. 이 외에 추가로 확인하고 싶거나 정정, 해지하고 싶은 개인정보가 있을 경우, 고객서비스 담당부서로 연락 주시면 지체 없이 조치하겠습니다.<br/>이용자의 권리는 법정대리인을 통하여 하실 수 있습니다. 회사는 개인정보 열람 등을 요구한 자가 이용자 본인이거나 정당한 대리인인지를 확인할 수 있으며, 이 경우 법정대리인은 개인정보 처리 방법에 관한 고시(제2020-7호) 별지 제11호 서식에 따른 위임장을 제출하셔야 합니다.</p>
+					</section>
+					<section>
+						<h5>8. 개인정보의 안전성 확보 조치</h5>
+						<p class="mg_b10">회사는 이용자들의 개인정보가 분실, 도난, 누출, 변조 또는 훼손되지 않도록 안전성 확보를 위하여 다음의 사항을 포함하여 관계 법령상 요구되는 기술적/관리적/물리적 조치를 취하고 있습니다.</p>
+						<ul class="list_num">
+							<li>
+								<span>①</span>기술적 조치
+								<ul class="list_no">
+									<li>
+										<span>가.</span>회사는 이용자들의 개인정보를 취급함에 있어 개인정보가 분실, 도난, 누출, 변조 또는 훼손되지 않도록 안전성 확보를 위하여 다음과 같은 기술적 대책을 강구하고 있습니다.
+									</li>
+									<li>
+										<span>나.</span>이용자들의 개인정보는 비밀번호에 의해 보호되며 파일 및 전송데이터를 암호화하거나 파일 잠금 기능(Lock)을 사용하여 중요한 데이터는 별도의 보안기능을 통해 보호하되 회사는 백신프로그램을 이용하여 컴퓨터바이러스에 의한 피해를 방지하기 위한 조치를 취하고 있습니다. 백신프로그램은 주기적으로 업데이트되며 갑작스런 바이러스가 출현할 경우 백신이 나오는 즉시 이를 제공함으로써 개인정보가 침해되는 것을 방지하고 있습니다.
+									</li>
+									<li>
+										<span>다.</span>회사는 암호알고리즘을 이용하여 네트워크 상의 개인정보를 안전하게 전송할 수 있는 보안장치(SSL)를 채택하고 있습니다.
+									</li>
+									<li>
+										<span>라.</span>해킹 등 외부침입에 대비하여 각 서버마다 침입차단시스템 및 취약점 분석시스템 등을 이용하여 보안에 만전을 기하고 있습니다.
+									</li>
+								</ul>
+							</li>
+							<li>
+								<span>②</span>관리적 조치
+								<ul class="list_no">
+									<li>
+										<span>가.</span>회사는 이용자들의 개인정보에 대한 접근권한을 최소한의 인원으로 제한하고 있습니다. 그 최소한의 인원에 해당하는 자는 다음과 같습니다.
+										<ul class="list_dot_sm">
+											<li>이용자들을 직접 상대로 하여 마케팅 업무를 수행하는 자</li>
+											<li>이용자들의 불만 및 이용문의 처리 업무를 수행하는 자</li>
+											<li>개인정보관리책임자 및 담당자 등 개인정보관리업무를 수행하는 자</li>
+											<li>기타 업무상 개인정보의 취급이 불가피한 자</li>
+										</ul>
+									</li>
+									<li>
+										<span>나.</span>회사는 개인정보처리방침에 대한 이행사항 및 직원의 준수여부를 감사하기 위한 내부절차를 마련하고 있습니다.
+									</li>
+									<li>
+										<span>다.</span>회사의 개인정보 관련 취급자의 업무 인수인계는 보안이 유지된 상태에서 철저하게 이뤄지고 있으며 입사 및 퇴사 후 개인정보 사고에 대한 책임을 명확화하고 있습니다.
+									</li>
+								</ul>
+							</li>
+							<li>
+								<span>③</span>물리적 조치
+								<ul class="list_no">
+									<li>
+										<span>가.</span>회사는 사무실 출입통제 시스템을 통하여 외부인의 출입을 차단하고 있습니다.
+									</li>
+									<li>
+										<span>나.</span>회사는 서버실 등 개인정보를 처리하는 장치 등이 위치한 장소에 대한 출입관리 시스템 등을 통하여 개인정보 취급자 이외의 자의 접근을 통제하고 있습니다.<br/>
+										단, 이용자 본인의 부주의나 인터넷 또는 통신상의 문제로 ID, 비밀번호 등 개인정보가 유출되어 발생한 문제에 대해 회사는 일체의 책임을 지지 않습니다.
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h5>9. 개인정보 보호책임자 및 담당자</h5>
+						<p class="mg_b10">회사의 서비스를 이용하면서 발생하는 모든 개인정보보호 관련 문의, 불만, 조언이나 기타 사항은 개인정보 보호책임자 및 담당부서로 연락해 주시기 바랍니다. 회사는 여러분의 목소리에 귀 기울이고 신속하고 충분한 답변을 드릴 수 있도록 최선을 다하겠습니다.</p>
+						<div class="tbl tbl_col scrollx_tbl_sm">
+							<table>
+								<caption>개인정보 보호책임자 및 담당자</caption>
+								<colgroup>
+									<col style="width: 30%;">
+									<col style="width: 20%;">
+									<col style="width: 25%;">
+									<col style="width: auto;">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">구분</th>
+										<th scope="col">담당자(부서)</th>
+										<th scope="col">이메일</th>
+										<th scope="col">전화번호</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">개인정보보호 책임자</th>
+										<td>이애리아 차장</td>
+										<td>aralee@dainls.com</td>
+										<td>02)514-2060</td>
+									</tr>
+									<tr>
+										<th scope="row">개인정보보호 담당자</th>
+										<td>김형 과장</td>
+										<td>khyoung@dainls.com</td>
+										<td>02)514-2060</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
+					<section>
+						<h5>10. 권익 침해 구제 방법</h5>
+						<p class="mg_b10">이용자는 개인정보 권익 침해로 인한 구제를 받기 위하여 개인정보분쟁조정위원회, 개인정보침해신고센터 등에 분쟁 해결이나 상담 등을 신청할 수 있습니다. 개인정보 권익 침해에 대한 신고나 상담이 필요한 경우 아래 기관에 문의하시기 바랍니다.</p>
+						<div class="tbl tbl_col scrollx_tbl_sm">
+							<table>
+								<caption>권익 침해 구제 방법</caption>
+								<colgroup>
+									<col style="width: 30%;">
+									<col style="width: auto;">
+									<col style="width: 25%;">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">구분</th>
+										<th scope="col">웹사이트</th>
+										<th scope="col">전화번호</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">개인정보침해 신고센터</th>
+										<td>http://privacy.kisa.or.kr</td>
+										<td>국번없이 118</td>
+									</tr>
+									<tr>
+										<th scope="row">대검찰청 사이버수사과</th>
+										<td>http://www.spo.go.kr</td>
+										<td>국번없이 1301</td>
+									</tr>
+									<tr>
+										<th scope="row">경찰청 사이버안전국</th>
+										<td>http://cyberbureau.police.go.kr</td>
+										<td>국번없이 182</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</section>
+					<section>
+						<h5>11. 개인정보처리방침의 적용 범위</h5>
+						<p>회사의 개인정보처리방침은 캠퍼스월드 서비스에 적용됩니다. 회사에서 제공하는 다른 회사의 웹사이트 링크로 이동하였을 경우, 해당 웹사이트의 개인정보처리방침이 적용되니 새로 방문한 웹사이트의 정책을 반드시 검토하시기 바랍니다.</p>
+					</section>
+					<section>
+						<h5>12. 개인정보처리방침의 변경</h5>
+						<p class="mg_b10">회사의 개인정보처리방침은 캠퍼스월드 서비스에 공개하여 누구나 쉽게 열람할 수 있도록 하고 있습니다. 법률이나 서비스의 변경사항을 반영하기 위한 목적 등으로 개인정보취급방침을 수정할 경우, 변경사항을 게시하며, 변경된 개인정보처리방침은 게시한 날로부터 7일 후부터 효력이 발생합니다. 다만, 수집하는 개인정보의 항목, 이용목적의 변경 등과 같이 이용자 권리의 중대한 변경이 발생할 때에는 최소 30일 전에 미리 알려드리겠습니다. 개인정보처리방침이 변경되는 경우, 이전 개인정보처리방침도 아래에서 확인할 수 있습니다.</p>
+						<ul>
+							<li>1) 공고 일자 : 2022년 11월 11일</li>
+							<li>2) 시행 일자 : 2022년 11월 11일</li>
+						</ul>
+					</section>
+				</div>
+				<div class="radio_row_wrap">
+					<p class="radio_row">
+						<input type="radio" name="agreement" class="hidden" id="agree">
+						<label for="agree">동의합니다</label>
+					</p>
+					<p class="radio_row">
+						<input type="radio" name="agreement" class="hidden" id="disagree">
+						<label for="disagree">동의하지 않습니다</label>
+					</p>
+				</div>
+				<div class="btn_area">
+					<a href="javascript:void(0);" class="btn_round btn_lg btn_blue">캠퍼스월드 시작하기</a>
+				</div>
+			</div>
+		</section>
+		
+	</body>
+</html>
